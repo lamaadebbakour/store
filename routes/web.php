@@ -99,10 +99,4 @@ Route::get('/images/{image:id}', function (clothing $image) {
 
     ]);
 });
-// {
-//    return view('clothing.category_index', [
-//        'images' => $category->clothing,
-//        'categories' => Category::all(),
-//        'currentCategory' => $category,
-//    ]);
-// })->name('category');
+
